@@ -3,7 +3,7 @@ Para este proyecto implementaremos las funcionalidades móviles de cámara y vid
 
 ## A Blank PhoneGap App
 
-#### Usage
+#### Uso
   
 #### PhoneGap CLI
 
@@ -12,7 +12,7 @@ Para este proyecto implementaremos las funcionalidades móviles de cámara y vid
   ```
 
 #### Desktop
-#### In your browser, open the file:
+#### En su navegador, abra el archivo:
 
 - **/www/index.html**
 - **Crear carpeta style junto con su archivo style.css**
