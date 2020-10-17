@@ -15,3 +15,5 @@ Para este proyecto implementaremos las funcionalidades móviles de cámara y vid
 #### In your browser, open the file:
 
 - **/www/index.html**
+- **Crear carpeta style junto con su archivo style.css**
+- **Crear carpeta js junto con su archivo camara.js**
