@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <!-- This is a wide open CSP declaration. To lock this down for production, see below. -->
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+    <title>Camara</title>
+    <link rel="stylesheet" href="style/style.css" />
+	<script src="jquery/jquery-1.8.0.min.js"></script>
+    
+</head>
+
+<body>
+    <div class="header">
+        &nbsp;<span><h1>Camara y Video App</h1></span>
+    </div>
+
+    <canvas id="foto"></canvas>
+
+    <div class="button-container">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button id="button-action" class="button">Tomar Foto</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <button id="button-gallery" class="button">Imagen de Galería</button>
+        <!--<button onclick="capture();">Capture Image</button>-->
+        <div class="video">
+            <button id="record">Tomar Video</button>
+        </div>
+        
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/camara.js"></script>
+
+
+</body>
+
+</html>
+
